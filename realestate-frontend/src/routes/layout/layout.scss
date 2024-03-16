@@ -1,4 +1,4 @@
-@import './responsive.scss';
+@import '../../responsive.scss';
 
 .layout {
   height: 100vh;
@@ -12,17 +12,17 @@
 
 
   @include lg {
-    background-color: green;
+    // background-color: green;
     max-width: 1280px;
   }
 
   @include md {
-    background-color: blue;
+    // background-color: blue;
     max-width: 768px;
   }
 
   @include sm {
-    background-color: red;
+    // background-color: red;
     max-width: 640px;
   }
 
